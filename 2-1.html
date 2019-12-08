@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>WEATHER CLOTHING - 계절에 맞는 코디</title>
+    <style>
+      nav{
+        font-family: "Times New Roman", Times, serif;
+        line-height : 2.5;
+        width : 150px;
+      }
+      ul{
+        padding : 0;
+        border: 1px solid gray;
+      }
+      a{
+        text-decoration: none;
+        color : black;
+      }
+      a:hover{
+        transform:scale(1.5);
+      }
+      li{
+        list-style : none;
+        position : relative;
+        left : 20px;
+      }
+      .container{
+        display:flex;
+        flex-direction:column;
+      }
+      .content{
+        display:flex;
+      }
+      h3{
+        position : absoulte;
+        left : 200;
+        top : 0;
+      }
+      #grid{
+        display : grid;
+        grid-template-columns : 200px 1fr;
+      }
+      footer{
+        border-top: 2px solid black;
+      }
+      select{
+        width : 80px;
+        margin: 50px;
+      }
+      #sub{
+        margin : 30px;
+      }
+      main{
+        margin: 50px;
+      }
+      #five{
+        width : 300px;
+        height : 500px
+      }
+      img{
+        float : left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "container">
+      <header>
+        <div id = "grid">
+          <div>
+            <h1><a href = "index.html">WEATHER</a></h1>
+            <h1><a href = "1.html">CLOTHING</a></h1>
+          </div>
+            <h3><br><br><br>계절, 온도, 취향까지 맞춘 당신의 맞춤형 코디!</h3>
+        </div>
+      </header>
+      <section class = "content">
+        <nav>
+            <ul>
+              <ul>봄(5 ~ 16)
+                <li><a href = "2.html">- 5~8</a></li>
+                <li><a href = "2.html">- 9~11</a></li>
+                <li><a href = "2.html">- 12~16</a></li>
+              </ul>
+              <ul>여름(17~)
+                <li><a href = "2.html">- 17~19</a></li>
+                <li><a href = "2.html">- 20~22</a></li>
+                <li><a href = "2.html">- 23~27</a></li>
+                <li><a href = "2.html">- 28~</a></li>
+              </ul>
+              <ul>가을(5 ~ 16)
+                <li><a href = "2.html">- 5~8</a></li>
+                <li><a href = "2.html">- 9~11</a></li>
+                <li><a href = "2.html">- 12~16</a></li>
+              </ul>
+              <ul>겨울(~ 4)
+                <li><a href = "2.html">- ~4</a></li>
+              </ul>
+            </ul>
+        </nav>
+        <main>
+          <img id = 'five' src="image/58.jpg" alt="남자코디">
+          <남자이고 꾸미기 싫은 당신을 위한 코디!><br>
+          상의 : 기모 + 맨투맨폴리스, 니트 + 셔츠 + 가벼운 코트, 후드 + 항공잠바<br>
+          추가 : 레깅스, 히트텍, 가벼운 패딩조끼<br><br>
+
+          MORE> 코트, 가죽자켓
+        </main>
+        </section>
+        <footer>
+          DEVELOPER : CHO MIN SIK<br>E-MAIL : jms40301@naver.com
+        </footer>
+    </div>
+  </body>
+</html>
